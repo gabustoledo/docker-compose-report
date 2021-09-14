@@ -8,6 +8,7 @@ services:
     #   context: .
     #   dockerfile: Dockerfile.prod
     image: 'gabustoledo/report-front'
+    restart: always
     ports:
       - '80:80'
 # docker-compose -f docker-compose.prod.yml up -d --build
